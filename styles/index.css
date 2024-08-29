@@ -1,0 +1,319 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a, a:hover {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 600 !important;
+  text-decoration: none;
+}
+
+.fa, .far, .fas, .fab {
+  color: rgb(122, 75, 160) !important;
+  padding-right: 12px !important;
+  padding-left: 0px !important;
+}
+
+.fa, .far, .fas, .svg-inline--fa, .fa-gamepad {
+  font-family: "font awesome 5 free" !important;
+  font-size: large !important;
+  color: rgb(122, 75, 160) !important;
+  padding-right: 0px !important;
+}
+
+.fa, .fas {
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+}
+
+.fa, .fas, .far, .fal, .fad, .fab {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-variant: normal;
+}
+/* header */
+.pt-2 {
+  padding-top: 0.9375rem !important;
+}
+
+.bg-light {
+    opacity: 1;
+    background-color: #f9f9f9 !important;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+  .form-inline .form-control {
+    border-radius: 0 !important;
+    background-color: #f3f3f3;
+    border: 0 solid #f1f1f1 !important;
+    color: #2e231d !important;
+}
+
+
+textarea, input {
+    border-radius: 0;
+    border: 2px solid #333 !important;
+    padding: 10px !important;
+}
+
+.fa-sign-in-alt:before {
+    content: "\f2f6";
+}
+
+.wpnm-button.style-1 {
+  font-size: 16px;
+  position: relative;
+  display: block;
+  width: 2.5em;
+  height: 1.3125em;
+  margin-bottom: 0px;
+  top: 0.125em;
+}
+
+.wpnm-button.style-1 .wpnm-slider.round {
+  border-radius: 2.125em;
+}
+
+.wpnm-button.style-1 .wpnm-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgb(204, 204, 204);
+  transition: 0.4s;
+}
+
+.wpnm-button.style-1 .wpnm-slider.round::before {
+  border-radius: 50%;
+}
+
+.wpnm-button.style-1 .wpnm-slider::before {
+  position: absolute;
+  content: "";
+  height: 0.9375em;
+  width: 0.9375em;
+  left: 0.2em;
+  bottom: 0.1875em;
+  background-color: rgb(255, 255, 255);
+  transition: 0.4s;
+}
+
+.pe-3 {
+    padding-right: 1rem !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.btn-primary {
+    font-family: source sans pro, sans-serif !important;
+    background-color: #ffd978 !important;
+    color: #000 !important;
+    border: 0 solid !important;
+    padding: 10px 20px;
+}
+
+.secondary-text {
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+}
+
+/* sectinon 1 */
+.container-fluid {
+  padding-top: 3rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.block-heading {
+  padding-top: 10px;
+  border-top: 3px solid rgb(51, 51, 51);
+}
+
+h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+  margin-bottom: 1rem !important;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+}
+
+div.featured-image img, div.featured-image img:hover {
+  opacity: 1 !important;
+}
+
+.meta-text {
+  font-size: 0.675rem !important;
+  line-height: 1rem !important;
+  margin-bottom: 0px !important;
+}
+
+img, a, .btn-primary, .page-link {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.pb-2 {
+  padding-bottom: 0.9375rem !important;
+}
+
+.pb-1 {
+  padding-bottom: 0.625rem !important;
+}
+
+.avatar-40 {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 40px !important;
+}
+
+.badge {
+  line-height: 0 !important;
+  padding: 0px !important;
+}
+
+.badge-legend {
+  color: rgb(253, 126, 20) !important;
+}
+
+.badge-hiepsi {
+  background-color: rgb(122, 75, 160) !important;
+  color: rgb(255, 255, 255) !important;
+  padding-top: 3px !important;
+  padding-right: 7px !important;
+  padding-bottom: 3px !important;
+  padding-left: 7px !important;
+  font-size: 0.725rem !important;
+  border-radius: 10px !important;
+}
+
+.badge-rare {
+  color: rgb(0, 123, 255) !important;
+}
+
+.badge-common {
+  color: rgb(108, 117, 125) !important;
+}
+
+.badge-epic {
+  color: rgb(111, 66, 193) !important;
+}
+
+.sr-only {
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  position: absolute;
+  width: 1px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.pagination .page-link {
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+  margin: 0px 0.625rem;
+  border-width: initial !important;
+  border-style: none !important;
+  border-color: initial !important;
+  border-image: initial !important;
+  border-radius: 0px !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.pagination .active .page-link {
+  background-color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.page-item:last-child .page-link {
+  margin-right: 0px !important;
+}
+
+/* footer */
+.bg-secondary {
+  background-color: rgb(234, 234, 234) !important;
+}
+
+.aligncenter {
+  clear: both;
+}
+
+.sub-heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 3px solid rgb(51, 51, 51);
+}
+/* responsive */
+@media only screen and (min-width: 737px) {
+  .site-content {
+    width: 1200px !important;
+    margin: auto !important;
+}
+
+.col-sm-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-sm-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.wpnm-button.style-1 .wpnm-slider {
+  background-color: rgb(122, 75, 160) !important;
+}
+
+  .featured-img {
+      object-fit: cover;
+      width: 100%;
+      max-height: 250px;
+  }
+
+  .container-fluid {
+    padding-top: 3rem !important;
+}
+
+  h4 {
+    font-size: 1rem;
+    line-height: 1.5rem !important;
+}
+
+.author-card {
+  margin-top: -15px !important;
+}
+}
+
