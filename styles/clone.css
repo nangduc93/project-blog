@@ -1,0 +1,235 @@
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+
+img:hover, a:hover, .btn-primary:hover, .page-link:hover {
+    opacity: .8 !important;
+}
+
+body.wp-night-mode-on * {
+    background-color: transparent !important;
+}
+
+body.wp-night-mode-on * {
+    background: #211610;
+}
+
+body.wp-night-mode-on * {
+    color: #d6c9b6;
+}
+
+body.wp-night-mode-on a {
+    color: #ffd978;
+}
+
+body.wp-night-mode-on a, body.wp-night-mode-on a:hover, body.wp-night-mode-on .brand-name, body.wp-night-mode-on .haravan-product-widget.artgallery .product-details .product-price {
+    color: #d6c9b6 !important;
+}
+
+body.wp-night-mode-on a:hover, body.wp-night-mode-on a:visited, body.wp-night-mode-on a:active {
+    color: #d6c9b6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img, a, .btn-primary, .page-link {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.secondary-text {
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0.9375rem;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-right: 0;
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+}
+
+/* moblie */
+.pb-3 {
+    padding-bottom: 1.875rem !important;
+}
+
+.pt-md-3 {
+    padding-top: 0 !important;
+}
+
+.form-inline, .form-search {
+    width: 100% !important;
+}
+
+textarea, input {
+    border-radius: 0;
+    border: 2px solid #333 !important;
+    padding: 10px !important;
+}
+
+.form-inline .form-control {
+    border-radius: 0 !important;
+    background-color: #f3f3f3;
+    border: 0 solid #f1f1f1 !important;
+    color: #2e231d !important;
+}
+
+.my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.pb-1 {
+    padding-bottom: .625rem !important;
+}
+
+.pt-1 {
+    padding-top: .625rem !important;
+}
+
+.fa, .far, .fas, .svg-inline--fa, .fa-gamepad {
+    font-family: "font awesome 5 free" !important;
+    font-size: large !important;
+    color: #7a4ba0 !important;
+    padding-right: 0 !important;
+}
+
+.fa, .far, .fas, .fab {
+    color: #7a4ba0 !important;
+    padding-right: 12px !important;
+    padding-left: 0 !important;
+}
+
+.fa-sign-in-alt:before {
+    content: "\f2f6";
+}
+
+.wpnm-button.style-1 {
+    font-size: 16px;
+    position: relative;
+    display: block;
+    width: 2.5em;
+    height: 1.3125em;
+    margin-bottom: 0;
+    top: .125em;
+}
+
+.wpnm-button.style-1, .wpnm-button.style-2, .wpnm-button.style-3, .wpnm-button.style-4, .wpnm-button.style-5 {
+    font-size: 11px;
+}
+
+.wpnm-button.style-1 .wpnm-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.wpnm-button.style-1 .wpnm-slider.round {
+    border-radius: 2.125em;
+}
+
+.wpnm-button.style-1 .wpnm-slider.round:before {
+    border-radius: 50%;
+}
+
+.btn-primary {
+    font-family: source sans pro, sans-serif !important;
+    background-color: #ffd978 !important;
+    color: #000 !important;
+    border: 0 solid !important;
+    padding: 10px 20px;
+}
+
+.wpnm-button.style-1 .wpnm-slider:before {
+    position: absolute;
+    content: "";
+    height: .9375em;
+    width: .9375em;
+    left: .2em;
+    bottom: .1875em;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-expand-md .container-fluid {
+        padding: 0;
+    }
+
+    .site-content {
+        width: 1200px !important;
+        margin: auto !important;
+    }
+
+    .wpnm-button.style-1 .wpnm-slider {
+        background-color: #7a4ba0 !important;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    html, body {
+    overflow-x: hidden !important;
+}
+
+body {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+}
+
+.navbar {
+    --bs-navbar-padding-x: 0.75rem;
+    --bs-navbar-padding-y: 5px;
+}
+
+.navbar .container-fluid {
+    transition: top .2s ease-in-out;
+    padding: .5rem 0 !important;
+}
+
+.bg-body-tertiary {
+    background-color: #e7e7e7 !important;
+}
+
+.form-inline, .form-search {
+    width: 100% !important;
+}
+
+.pt-md-3 {
+    padding-top: 1.875rem !important;
+}
+
+
+}

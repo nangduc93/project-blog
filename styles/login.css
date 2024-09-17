@@ -1,0 +1,390 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0f0f1;
+    min-width: 0;
+    color: #3c434a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+body.login {
+    background-color: #35281e !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#login {
+    background: #fff;
+    margin: 50px auto;
+    padding: 40px 20px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+#login {
+    width: 350px !important;
+}
+
+.login * {
+    margin: 0;
+    padding: 0;
+}
+
+.login h1 a {
+    background-image: url(../images/w-logo-blue.png?ver=20131202);
+    background-image: none, url(../images/wordpress-logo.svg?ver=20131107);
+    background-size: 84px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #3c434a;
+    height: 84px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0 auto 25px;
+    padding: 0;
+    text-decoration: none;
+    width: 84px;
+    text-indent: -9999px;
+    outline: 0;
+    overflow: hidden;
+    display: block;
+}
+
+#login h1 a {
+    background-image: url(https://www.hiepsibaotap.com/wp-content/uploads/2019/10/hsbt-logo-newcolor.png);
+    height: 170px !important;
+    width: 200px !important;
+    background-size: 200px !important;
+}
+
+.login h1 {
+    text-align: center;
+}
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+
+.login form {
+    box-shadow: none;
+    padding: 20px;
+    border: 0 solid #fff !important;
+}
+
+#login form p {
+    margin-bottom: 0;
+}
+
+.login label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.login label {
+    color: #555;
+    font-size: 14px;
+}
+
+button, input, select, textarea {
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+input, textarea {
+    font-size: 14px;
+}
+
+input, select {
+    margin: 0 1px;
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+}
+
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+}
+
+.login form .input, .login input[type=password], .login input[type=text] {
+    font-size: 24px;
+    line-height: 1.33333333;
+    width: 100%;
+    border-width: .0625rem;
+    padding: .1875rem .3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    background: #fff;
+}
+
+.login .wp-pwd {
+    position: relative;
+}
+
+.js.login input.password-input, .js.login-action-rp form .input, .js.login-action-rp input[type=text] {
+    padding-right: 2.5rem;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+}
+
+.login .button.wp-hide-pw {
+    background: 0 0;
+    border: 1px solid transparent;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 2;
+    width: 2.5rem;
+    height: 2.5rem;
+    min-width: 40px;
+    min-height: 40px;
+    margin: 0;
+    padding: 5px 9px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.forgetmenot {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+}
+
+.login form .forgetmenot {
+    font-weight: 400;
+    float: left;
+    margin-bottom: 0;
+}
+
+.login form .forgetmenot {
+    float: none;
+}
+
+input[type=checkbox], input[type=radio] {
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    background: #fff;
+    color: #50575e;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 1rem;
+    margin: -.25rem .25rem 0 0;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 1rem;
+    min-width: 1rem;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    transition: .05s border-color ease-in-out;
+}
+
+.login .forgetmenot label, .login .pw-weak label {
+    line-height: 1.5;
+    vertical-align: baseline;
+}
+
+#loginform p.submit, .login-action-lostpassword p.submit {
+    border: none;
+    margin: -10px 0 20px;
+}
+
+#login form p.submit {
+    margin: 0;
+    padding: 0;
+}
+
+#login form p.submit {
+    margin-top: 15px;
+}
+
+.login .button-primary {
+    float: right;
+}
+
+.wp-core-ui p .button {
+    vertical-align: baseline;
+}
+
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+    min-height: 32px;
+    line-height: 2.30769231;
+    padding: 0 12px;
+}
+
+.login.wp-core-ui .button-primary {
+    background: #ffd978;
+    border-color: #ffd978;
+    box-shadow: 0 1px 0 #ffd978;
+    color: #333;
+    text-shadow: none;
+    float: none;
+    clear: both;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    height: auto;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+p#nav {
+    display: none;
+}
+
+.login #backtoblog, .login #nav {
+    font-size: 13px;
+    padding: 0 24px;
+}
+
+.login #nav {
+    margin: 24px 0 0;
+}
+
+.login #backtoblog a, .login #nav a {
+    text-decoration: none;
+    color: #50575e;
+}
+
+.language-switcher {
+    margin: 0 auto;
+    padding: 0 0 24px;
+    text-align: center;
+}
+
+#language-switcher {
+    padding: 0;
+    overflow: visible;
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+}
+
+.language-switcher label {
+    margin-right: .25em;
+}
+
+.language-switcher label .dashicons {
+    width: auto;
+    height: auto;
+}
+
+.dashicons, .dashicons-before:before {
+    font-family: dashicons;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    speak: never;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+}
+
+
+.dashicons-translation:before {
+    content: "\f326";
+}
+
+.screen-reader-text, .screen-reader-text span {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.wp-core-ui select {
+    font-size: 14px;
+    line-height: 2;
+    color: #2c3338;
+    border-color: #8c8f94;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 0 24px 0 8px;
+    min-height: 30px;
+    max-width: 25rem;
+    -webkit-appearance: none;
+    background: #fff url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 55%;
+    background-size: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#language-switcher select {
+    margin-right: .25em;
+}
+
+@media screen and (max-height: 550px) {
+    #language-switcher {
+        margin-top: 0;
+    }
+}
