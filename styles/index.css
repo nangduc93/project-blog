@@ -62,6 +62,11 @@ body.wp-night-mode-on a:active {
   color: #d6c9b6;
 }
 
+html :where(img[class*="wp-image-"]) {
+  height: auto;
+  max-width: 100%;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -75,6 +80,14 @@ a,
   transition: opacity 0.25s ease-in-out;
   -moz-transition: opacity 0.25s ease-in-out;
   -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+article img {
+  margin-bottom: 1.2rem;
+}
+
+.wp-caption {
+  width: 100% !important;
 }
 
 .secondary-text {
@@ -99,7 +112,7 @@ a,
 /* header */
 
 .container-lg {
-  width: 1200px !important;
+  max-width: 1200px !important;
 }
 
 .pb-3 {
@@ -223,7 +236,7 @@ input {
 
 /* section1 */
 
-.section > .container-fluid {
+section > .container-fluid {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
